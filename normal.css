@@ -1,0 +1,180 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Mulish', sans-serif;
+        }
+
+        .head{
+            width: 100%;
+            height: 320vh;
+            background-color: #ded4d4;
+            background-image: linear-gradient(180deg, #ded4d4 0%, #6284FF 50%, #f47070 100%);
+            position: relative;
+            z-index: 1;
+            /* background-color: rgb(156, 156, 156);    */
+            
+        }
+
+        nav{
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 15vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+        }
+
+        .logo a{
+            color: black;
+            text-decoration: none;
+            font-size: 5vh;
+            /* text-transform: uppercase; */
+        }
+
+        .menu ul li{
+            list-style: none;
+            display: inline-block;
+            
+            text-transform: capitalize;
+
+        }
+
+        .menu ul li a{
+            margin:0 2vw 0 2vw;
+            font-size: 1.2vw;
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+        }
+
+        .active,ul li:hover{
+            border-top: 2px solid #5dade2;
+            border-bottom: 2px solid #5dade2;
+            transition: 0.3s;
+            font-weight: 700;
+        }
+
+        .login_btn
+        {
+            background-color:#5dade2 ;
+            font-weight: 500;
+            width: 10vw;
+            height: 6vh;
+            border: 0.1vw solid black;
+            border-radius: 0.3vw;
+            text-decoration: none
+            ;
+
+            list-style: none;
+
+        }
+
+        .login_btn li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .login_btn li{
+            margin-top: 1vh; 
+            margin-left: 0.7vw;
+            color:white;
+        }
+
+        .login_btn li a:hover{
+            border-top: 2px solid #0d2678;
+            
+            border-bottom: 2px solid #0d2678;
+            transition: 0.3s;
+            color:white;
+
+            
+        }
+
+        .login_btn:hover{
+            background-color: green;
+            transition: 0.4s;
+            
+        }
+
+        .textss15{
+            position: absolute;
+            top: 15%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+
+        .textss15 h1{
+            color: #fff;
+            font-size: 5vw;
+            font-weight: 900;
+            text-transform: capitalize;
+            width: 60vw;
+        }
+
+        .textss15 h2{
+            font-size: 2vw;
+            font-weight: 600;
+            text-indent: 11vw;
+        }
+
+        .textss15 h2::before
+        {
+            content:"";
+            width: 15vw;
+            height: 0.01vw;
+            border: 0.15vw solid #fff;
+            position: absolute;
+            left: 0.1vw;
+            bottom: 0;
+            margin-bottom: 0.9vw;
+        }
+
+        .container76::before
+        {
+            content:"";
+            width: 15vw;
+            height: 0.01vw;
+            border: 0.15vw solid #910000;
+            position: absolute;
+            right: 10vw;
+            margin-top: 31vh;
+            align-items: right;
+        }
+
+        .fa-instagram {
+        background: #ba2c0c;
+        color: white;
+        }
+        .fa-facebook {
+        background: #3B5998;
+        color: white;
+        }
+
+        .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        }
+
+        .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa {
+            padding: 1.5vw;
+            width: 5vw;
+            text-align: center;
+            text-decoration: none;
+            /* margin: 0.5vw ; */
+            margin-left: 8.8vw;
+        }
